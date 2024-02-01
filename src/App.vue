@@ -1,10 +1,8 @@
 <script setup lang="ts">
-import { inject } from "@vercel/analytics";
 import { ref } from "vue";
 import { injectSpeedInsights } from "@vercel/speed-insights";
 
 injectSpeedInsights();
-inject();
 
 let isPlaying = ref(false);
 const oscillator = ref<OscillatorNode | null>(null);
