@@ -96,6 +96,11 @@ button {
   gap: 1rem;
 }
 
+p.footer-text {
+  width: fit-content;
+  margin: 10px auto;
+}
+
 footer {
   color: white;
   background-color: rgba(0, 0, 0, 0.187);
